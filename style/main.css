@@ -1,3 +1,5 @@
+/* main */
+
 :root{
     --red:#E50914;
     --black:#141414;
@@ -10,7 +12,7 @@
 
 body{
     background-color: var(--black);
-    color: var(--red);
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -22,6 +24,7 @@ header .container {
 }
 
 header .logo {
+    color: var(--red);
     font-size: 40px;
     margin-left: 5px;
 }
@@ -34,4 +37,25 @@ header nav a {
 
 header nav a:hover {
     color: #FFF;
+}
+
+/*principal*/
+
+.principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)100%), url('/img/v9rY2Xu3B3NRN4xY9HZ75BhvVyl.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
